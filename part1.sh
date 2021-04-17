@@ -17,7 +17,7 @@ mount /dev/sda4 /mnt/home
 
 
 # install
-pacstrap /mnt base base-devel linux linux-firmware vim git networkmanager grub os-prober zsh efibootmgr dosfstools xorg-server xorg-xinit 
+pacstrap /mnt base base-devel linux linux-firmware vim git networkmanager grub os-prober zsh efibootmgr dosfstools xorg-server xorg-xinit mesa xf86-video-intel bspwm sxhkd
 
 # copy the second script
 cp part2.sh /mnt/part2.sh
