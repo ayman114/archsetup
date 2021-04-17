@@ -40,6 +40,6 @@ sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 
 # Enable services
 systemctl enable NetworkManager.service
-
+systemctl enable lightdm
 # let user know that the install finished
 echo "Install Finished"
